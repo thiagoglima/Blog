@@ -1,0 +1,26 @@
+﻿.menuPadrao {
+    min-height: 90px;
+    box-shadow: -2px -1px 25px 0px rgba(0, 0, 0, 0.17);
+    border-radius: 0;
+    background: #c9302c;
+}
+
+.menuItems {
+    line-height: 70px !important;
+    color: #FFF !important;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out color,0.3s ease-in-out background;
+}
+
+    .menuItems:hover {
+        color: #FFF !important;
+        font-weight: bold;
+        background: #d9534f !important;
+    }
+
+.togglePersonalizado {
+    background: #A73726;
+    padding: 15px;
+    margin-top: 20px;
+}
